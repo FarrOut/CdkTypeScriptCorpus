@@ -1,4 +1,14 @@
 {
+  "requireApproval": "never",
+  "pathMetadata": false,
+  "assetMetadata": false,
+  "rollback": true,
+  "tags": [
+    {
+      "Key": "BelongsTo",
+      "Value": "CdkTypeScriptCorpus"
+    }
+  ],
   "app": "npx ts-node --prefer-ts-exts bin/cdk_type_script_corpus.ts",
   "watch": {
     "include": [
